@@ -25,7 +25,7 @@ function App() {
   return (
     <div className="App">
       <div className="App-header">
-         <h1>Joke-on-you</h1>
+         <h1>joke-on-you</h1>
       <ul>
         {jokes?.map((joke) => (
           <Jokes key={joke.id} joke={joke} />
