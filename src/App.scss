@@ -1,13 +1,5 @@
-@import './buttons.scss';
-
 .App {
   text-align: center;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 3s linear;
-  }
 }
 
 .App-header {
@@ -20,82 +12,6 @@
   font-size: calc(10px + 2vmin);
   color: white;
   position: relative;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(-360deg);
-  }
-}
-
-.cat {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 400px;
-  height: 100px;
-  margin: 20px;
-  border: 3px dotted transparent;
-
-  h2 {
-    letter-spacing: 5px;
-    font-size: 20px;
-    text-transform: uppercase;
-  }
-}
-
-.dog {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 400px;
-  height: 100px;
-  margin: 20px;
-  border: 3px dashed transparent;
-  border-radius: 20px;
-
-  h3 {
-    letter-spacing: 5px;
-    font-size: 20px;
-    text-transform: uppercase;
-  }
-}
-
-.bin {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 80%;
-  flex-wrap: wrap;
-
-  .sq {
-    width: 100px;
-    height: 100px;
-    margin: 5px;
-    border: 1px dashed gray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    font-family: monospace;
-
-    &.blue {
-      background-color: skyblue;
-      border-color: skyblue;
-    }
-  }
-}
-
-.kv {
-  width: 250px;
-  height: 100px;
-  background-color: crimson;
-  transition: all 0.5s;
-  margin: 100px;
 }
 
 ul {
@@ -115,7 +31,6 @@ ul {
     justify-content: center;
     align-items: center;
     list-style: none;
-    position: relative;
   }
 
   h2 {
@@ -131,25 +46,4 @@ ul {
     text-transform: uppercase;
     color: skyblue;
   }
-
-  .id {
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 30px;
-    height: 30px;
-    border: 1px solid skyblue;
-    border-radius: 50%;
-    color: coral;
-    font-size: 14px;
-  }
-}
-
-.top {
-  position: absolute;
-  top: 0;
-  background-color: #ffa500cc;
 }
